@@ -77,7 +77,7 @@ pipeline {
             echo "Pipeline Failed"
         }
         always {
-            echo "Pipeline Execution Completed"
+            echo "Pipeline Execution Completed!"
         }
     }
 }
