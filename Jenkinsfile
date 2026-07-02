@@ -29,7 +29,7 @@ pipeline {
             }
         }
 
-        stage('Remove Existing Container') {
+        stage('Remove Existing or Container') {
             steps {
                 echo "Removing Old Redis Container"
                 sh '''
